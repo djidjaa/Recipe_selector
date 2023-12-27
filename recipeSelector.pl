@@ -1,41 +1,41 @@
-% Exemple de base de donnÈes de plats
+% Exemple de base de donn√©es de plats
 plat(salade_nicoise, sale, salade, [thon, oeufs, haricots, tomates, olives], 15).
-plat(salade_cesar, sale, salade, [poulet_grillÈ, laitue, cro˚tons, parmesan, sauce_cesar], 20).
-plat(salade_fruitee, sale, salade, [fraises, Èpinards, amandes, vinaigrette], 15).
+plat(salade_cesar, sale, salade, [poulet_grill√©, laitue, cro√ªtons, parmesan, sauce_cesar], 20).
+plat(salade_fruitee, sale, salade, [fraises, √©pinards, amandes, vinaigrette], 15).
 plat(salade_grecque, sale, salade, [concombre, tomate, oignon, feta, olives, huile_olive], 25).
-plat(salade_poulet, sale, salade, [poulet, laitue, tomates, avocat, maÔs, ranch], 20).
+plat(salade_poulet, sale, salade, [poulet, laitue, tomates, avocat, ma√Øs, ranch], 20).
 plat(soupe_oignon, sale, soupe, [oignon, pain, fromage], 25).
 plat(soupe_tomate, sale, soupe, [tomates, oignon, ail, basilic], 30).
 plat(soupe_pois, sale, soupe, [pois, pommes_de_terre, carottes, oignon], 25).
-plat(soupe_poulet_nouilles, sale, soupe, [poulet, nouilles, cÈleri, carottes], 35).
-plat(soupe_legumes, sale, soupe, [lÈgumes_variÈs, bouillon, herbes], 20).
-plat(soupe_haricots, sale, soupe, [haricots, oignon, tomates, Èpices], 40).
-plat(soupe_courgette, sale, soupe, [courgettes, pommes_de_terre, oignon, crËme], 30).
+plat(soupe_poulet_nouilles, sale, soupe, [poulet, nouilles, c√©leri, carottes], 35).
+plat(soupe_legumes, sale, soupe, [l√©gumes_vari√©s, bouillon, herbes], 20).
+plat(soupe_haricots, sale, soupe, [haricots, oignon, tomates, √©pices], 40).
+plat(soupe_courgette, sale, soupe, [courgettes, pommes_de_terre, oignon, cr√®me], 30).
 plat(ratatouille, sale, plat_principal, [aubergine, courgette, poivron, tomate, oignon], 45).
-plat(tiramisu, sucre, dessert, [biscuits, cafÈ, mascarpone, cacao], 45).
+plat(tiramisu, sucre, dessert, [biscuits, caf√©, mascarpone, cacao], 45).
 plat(mousse_chocolat, sucre, dessert, [chocolat, oeufs, sucre], 20).
 plat(gateau_aux_pommes, sucre, gateau, [pommes, farine, sucre, beurre], 40).
-plat(pizza, sale, plat_principal, [p‚te, tomate, fromage, olive, champignons], 35).
+plat(pizza, sale, plat_principal, [p√¢te, tomate, fromage, olive, champignons], 35).
 plat(burger, sale, plat_principal, [pain, steak, fromage, salade, tomate, oignon], 25).
-plat(creme_brulee, sucre, dessert, [crËme, sucre], 30).
-plat(tarte_aux_fraises, sucre, dessert, [p‚te, fraises, crËme_p‚tissiËre], 40).
-plat(poulet_curry, sale, plat_principal, [poulet, riz, curry, lÈgumes], 40).
+plat(creme_brulee, sucre, dessert, [cr√®me, sucre], 30).
+plat(tarte_aux_fraises, sucre, dessert, [p√¢te, fraises, cr√®me_p√¢tissi√®re], 40).
+plat(poulet_curry, sale, plat_principal, [poulet, riz, curry, l√©gumes], 40).
 plat(cheesecake, sucre, gateau, [biscuits, fromage_frais, sucre, beurre], 50).
-plat(poisson_grille, sale, plat_principal, [poisson, citron, herbes, lÈgumes], 30).
-plat(pates_carbonara, sale, plat_principal, [p‚tes, pancetta, oeufs, crËme, parmesan], 25).
-plat(glace_vanille, sucre, dessert, [lait, crËme, sucre, vanille], 15).
+plat(poisson_grille, sale, plat_principal, [poisson, citron, herbes, l√©gumes], 30).
+plat(pates_carbonara, sale, plat_principal, [p√¢tes, pancetta, oeufs, cr√®me, parmesan], 25).
+plat(glace_vanille, sucre, dessert, [lait, cr√®me, sucre, vanille], 15).
 plat(sushi, sale, plat_principal, [riz, poisson_cru, algue], 50).
-plat(tarte_aux_pommes, sucre, dessert, [p‚te, pommes, cannelle, sucre], 35).
-plat(panna_cotta, sucre, dessert, [crËme, sucre, gÈlatine], 25).
-plat(mille_feuille, sucre, dessert, [p‚te_feuilletÈe, crËme_p‚tissiËre, sucre_glace], 30).
-plat(gateau_chocolat, sucre, gateau, [chocolat, farine, sucre, úufs], 40).
-plat(gateau_citron, sucre, gateau, [citron, farine, sucre, úufs], 35).
-plat(gateau_carotte, sucre, gateau, [carottes, farine, sucre, úufs], 45).
-plat(gateau_coco, sucre, gateau, [coco_r‚pÈ, farine, sucre, úufs], 50).
-plat(gateau_moka, sucre, gateau, [cafÈ, farine, sucre, úufs], 40).
-plat(gateau_fraise, sucre, gateau, [fraises, farine, sucre, úufs], 30).
+plat(tarte_aux_pommes, sucre, dessert, [p√¢te, pommes, cannelle, sucre], 35).
+plat(panna_cotta, sucre, dessert, [cr√®me, sucre, g√©latine], 25).
+plat(mille_feuille, sucre, dessert, [p√¢te_feuillet√©e, cr√®me_p√¢tissi√®re, sucre_glace], 30).
+plat(gateau_chocolat, sucre, gateau, [chocolat, farine, sucre, ≈ìufs], 40).
+plat(gateau_citron, sucre, gateau, [citron, farine, sucre, ≈ìufs], 35).
+plat(gateau_carotte, sucre, gateau, [carottes, farine, sucre, ≈ìufs], 45).
+plat(gateau_coco, sucre, gateau, [coco_r√¢p√©, farine, sucre, ≈ìufs], 50).
+plat(gateau_moka, sucre, gateau, [caf√©, farine, sucre, ≈ìufs], 40).
+plat(gateau_fraise, sucre, gateau, [fraises, farine, sucre, ≈ìufs], 30).
 
-% RËgle pour filtrer les plats en fonction du type et du sous-type pour les plats salÈs
+% R√®gle pour filtrer les plats en fonction du type et du sous-type pour les plats sal√©s
 plat_inferieur_a_temps_sous_type(Type, SousType, Time, Plat) :-
     plat(Plat, Type, SousType, _, Duree),
     Duree =< Time.
@@ -45,27 +45,27 @@ find_plats_sous_type(Type, SousType, Time, Plats) :-
 
 % Afficher les sous-types disponibles pour chaque type de plat
 display_sous_types(sale) :-
-    writeln('Sous-types disponibles pour les plats salÈs :'),
+    writeln('Sous-types disponibles pour les plats sal√©s :'),
     writeln('- salade'),
     writeln('- soupe'),
     writeln('- plat_principal').
 display_sous_types(sucre) :-
-    writeln('Sous-types disponibles pour les plats sucrÈs :'),
+    writeln('Sous-types disponibles pour les plats sucr√©s :'),
     writeln('- dessert'),
-    writeln('- g‚teau').
+    writeln('- g√¢teau').
 
-% RËgle pour afficher les plats
+% R√®gle pour afficher les plats
 display_plats(Plats) :-
     forall(member(Plat, Plats),
            writeln(Plat)).
 
-% RËgle pour afficher les ingrÈdients d'un plat sÈlectionnÈ
+% R√®gle pour afficher les ingr√©dients d'un plat s√©lectionn√©
 afficher_ingredients(Plat) :-
     plat(Plat, _, _, Ingredients, _),
-    writeln('IngrÈdients du plat : '),
+    writeln('Ingr√©dients du plat : '),
     display_ingredients(Ingredients).
 
-% RËgle pour afficher les ÈlÈments de la liste des ingrÈdients
+% R√®gle pour afficher les √©l√©ments de la liste des ingr√©dients
 display_ingredients(Ingredients) :-
     forall(member(Ingredient, Ingredients),
            writeln(Ingredient)).
@@ -73,7 +73,7 @@ display_ingredients(Ingredients) :-
 % ...
 
 search_recipe :-
-    writeln('SÈlecteur de Plats'),
+    writeln('S√©lecteur de Plats'),
     writeln('Type de plat (sale ou sucre) : '),
     read_line_to_string(user_input, TypeString),
     atom_string(TypeAtom, TypeString),
@@ -81,16 +81,16 @@ search_recipe :-
     display_sous_types(TypeAtom),
     read_line_to_string(user_input, SousTypeString),
     atom_string(SousTypeAtom, SousTypeString),
-    writeln('Temps de prÈparation (en minutes) : '),
+    writeln('Temps de pr√©paration (en minutes) : '),
     read_line_to_string(user_input, TimeString),
     atom_number(TimeString, TimeNum),
     writeln('La liste des plats est : '),
     find_plats_sous_type(TypeAtom, SousTypeAtom, TimeNum, Plats),
     display_plats(Plats),
-    writeln('Choisissez un plat pour afficher les ingrÈdients : '),
+    writeln('Choisissez un plat pour afficher les ingr√©dients : '),
     read_line_to_string(user_input, SelectedPlatString),
     atom_string(SelectedPlat, SelectedPlatString),  % Convertir en atome
-    afficher_ingredients(SelectedPlat),  % Afficher les ingrÈdients du plat sÈlectionnÈ
+    afficher_ingredients(SelectedPlat),  % Afficher les ingr√©dients du plat s√©lectionn√©
     writeln('Si vous souhaitez rechoisir le plat, tapez "true".'),
     read_line_to_string(user_input, ResponseString),
     atom_string(ResponseAtom, ResponseString),  % Convertir en atome
