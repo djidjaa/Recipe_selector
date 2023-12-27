@@ -1,4 +1,4 @@
-# Prolog Recipe Selector
+# Recipe Selector System
 
 This Prolog program allows users to search for recipes based on the type, subtype, and preparation time of a dish.
 
