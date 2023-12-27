@@ -14,7 +14,7 @@ Make sure you have a Prolog interpreter installed on your machine. You can downl
 2. Load the program by consulting the source file. In the Prolog interpreter, type:
 
     ```prolog
-    recipeSelector.
+    [recipeSelector].
     ```
 
 3. Run the program by executing the `search_recipe` rule:
