@@ -39,14 +39,3 @@ Make sure you have a Prolog interpreter installed on your machine. You can downl
 
 6. If you want to choose another recipe, enter "true" when prompted. Otherwise, the program will terminate.
 
-## Example
-
-```prolog
-% Type of dish: sale
-% Subtype: salade
-% Preparation time: 20 minutes
-
-?- search_recipe.
-```
-
-Follow the on-screen prompts to interact with the program.
